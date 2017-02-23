@@ -1,0 +1,6 @@
+tile/release
+tile/product
+tile/metadata
+tile/tile-history.yml
+tile/resource/*.tgz
+

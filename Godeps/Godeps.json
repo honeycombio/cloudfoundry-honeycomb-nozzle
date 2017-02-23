@@ -1,0 +1,132 @@
+{
+	"ImportPath": "github.com/honeycombio/cloudfoundry-honeycomb-nozzle",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.11.5-12-g10f801e",
+			"Rev": "10f801ebc38b33738c9d17d50860f484a0988ff5"
+		},
+		{
+			"ImportPath": "github.com/cf-platform-eng/firehose-nozzle/api",
+			"Rev": "ea610de6a2fbd51d0c5dcc5133985f8035390f92"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry-community/go-cfclient",
+			"Rev": "95f03981d02db584b6798b6a0d49b5d667e4d1b5"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry-incubator/uaago",
+			"Rev": "1db9cfd27865007e07ffd5914c0fdf5fb7fc09ba"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/noaa",
+			"Comment": "v2.0.0-5-g9e08723",
+			"Rev": "9e087230f2fedf46641976e14cbc41fe6a2bbec8"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/noaa/consumer",
+			"Comment": "v2.0.0-5-g9e08723",
+			"Rev": "9e087230f2fedf46641976e14cbc41fe6a2bbec8"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/noaa/consumer/internal",
+			"Comment": "v2.0.0-5-g9e08723",
+			"Rev": "9e087230f2fedf46641976e14cbc41fe6a2bbec8"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/noaa/errors",
+			"Comment": "v2.0.0-5-g9e08723",
+			"Rev": "9e087230f2fedf46641976e14cbc41fe6a2bbec8"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/sonde-go/events",
+			"Rev": "78019103037ae46207993c8816e970d85bf1a9e4"
+		},
+		{
+			"ImportPath": "github.com/facebookgo/clock",
+			"Rev": "600d898af40aa09a7a93ecb9265d87b0504b6f03"
+		},
+		{
+			"ImportPath": "github.com/facebookgo/limitgroup",
+			"Rev": "6abd8d71ec01451d7f1929eacaa263bbe2935d05"
+		},
+		{
+			"ImportPath": "github.com/facebookgo/muster",
+			"Rev": "fd3d7953fd52354a74b9f6b3d70d0c9650c4ec2a"
+		},
+		{
+			"ImportPath": "github.com/gogo/protobuf/gogoproto",
+			"Comment": "v0.4-3-gc0656ed",
+			"Rev": "c0656edd0d9eab7c66d1eb0c568f9039345796f7"
+		},
+		{
+			"ImportPath": "github.com/gogo/protobuf/proto",
+			"Comment": "v0.4-3-gc0656ed",
+			"Rev": "c0656edd0d9eab7c66d1eb0c568f9039345796f7"
+		},
+		{
+			"ImportPath": "github.com/gogo/protobuf/protoc-gen-gogo/descriptor",
+			"Comment": "v0.4-3-gc0656ed",
+			"Rev": "c0656edd0d9eab7c66d1eb0c568f9039345796f7"
+		},
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Comment": "v1.0.0-17-ga836c37",
+			"Rev": "a836c37014dbbf0d1e871d04531b851fcbdeb22d"
+		},
+		{
+			"ImportPath": "github.com/honeycombio/libhoney-go",
+			"Rev": "78cb4a1942a1e2aa1e77592d1f66fe32b5806ef3"
+		},
+		{
+			"ImportPath": "github.com/honeycombio/urlshaper",
+			"Rev": "2da4f9f260e5522fea23c0d2554cc0d76610698b"
+		},
+		{
+			"ImportPath": "github.com/kelseyhightower/envconfig",
+			"Comment": "v1.3.0-3-g8bf4bbf",
+			"Rev": "8bf4bbfc795e2c7c8a5ea47b707453ed019e2ad4"
+		},
+		{
+			"ImportPath": "github.com/maplebed/go-cfenv",
+			"Comment": "v1.14.0-8-ge9e2bf2",
+			"Rev": "e9e2bf2fe090a027eb409255fa375171851925f4"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/mapstructure",
+			"Rev": "21a35fb16463dfb7c8eee579c65d995d95e64d1e"
+		},
+		{
+			"ImportPath": "github.com/pkg/errors",
+			"Comment": "v0.8.0-4-gff09b13",
+			"Rev": "ff09b135c25aae272398c51a07235b90a75aa4f0"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "8aacbecd63e105fa5f07afbd49472fd3e17a19d1"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2",
+			"Rev": "4470bd844ebb05a09d21d3f54d5824a81b5f45af"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2/clientcredentials",
+			"Rev": "4470bd844ebb05a09d21d3f54d5824a81b5f45af"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2/internal",
+			"Rev": "4470bd844ebb05a09d21d3f54d5824a81b5f45af"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "320cb01ddbbf0473674c2585f9b6e245721de355"
+		},
+		{
+			"ImportPath": "gopkg.in/alexcesaro/statsd.v2",
+			"Comment": "v2.0.0",
+			"Rev": "7fea3f0d2fab1ad973e641e51dba45443a311a90"
+		}
+	]
+}
