@@ -1,5 +1,5 @@
 # cloudfoundry-honeycomb-nozzle
-A Nozzle for draining logs and metrics from Cloud Foundry Loggregator to Honeycomb
+A Nozzle for draining logs and metrics from Cloud Foundry Loggregator to Honeycomb. For more information about using Honeycomb, see the [docs](https://honeycomb.io/docs).
 
 # Overview
 
