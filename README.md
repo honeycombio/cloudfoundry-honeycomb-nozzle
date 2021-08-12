@@ -1,7 +1,10 @@
 # cloudfoundry-honeycomb-nozzle
+
+[![OSS Lifecycle](https://img.shields.io/osslifecycle/honeycombio/cloudfoundry-honeycomb-nozzle)](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md)
+
 A Nozzle for draining logs and metrics from Cloud Foundry Loggregator to Honeycomb. For more information about using Honeycomb, see the [docs](https://honeycomb.io/docs).
 
-# Overview
+## Overview
 
 This nozzle listens to the Loggregator firehose and sends events on to Honeycomb. It splits the events into three datasets in Honeycomb:
 
@@ -38,7 +41,7 @@ the corresponding LogMessage event will have the keys and values:
 * `logMessage-UserID`: "4223ab"
 * `logMessage-Age`: 23
 
-# Installation
+## Installation
 
 For Pivotal Cloud Foundry, there will soon be a tile available for this nozzle on PivNet. To build the tile manually for upload to a PCF cluster, run:
 
@@ -101,7 +104,7 @@ The configuration parameters are:
 * the Client secret for the UAA username(env var name: `HONEYCOMB_UAAPASSWORD`)
 * the URL for the doppler service, of the form `wss://doppler.<system_domain>:<port>` (env var name: `HONEYCOMB_DOPPLERURL`)
 
-# Operation
+## Operation
 
 The nozzle has a health check listener. It gets the port on which to listen from Cloud Foundry via the PORT environment variable. If you make an HTTP GET request to the health check port you should get the response "I'm healthy".
 
@@ -111,20 +114,18 @@ It is recommended to always run at least 2 instances of the nozzle to allow for 
 
 The Loggregator system will balance events across all available nozzle instances.
 
-# Feature Requests
+## Feature Requests
 
 (pull requests gladly accepted)
 
 * change the health check to return JSON and contain performance details about the nozzle such as counters and throughput metrics
 * add support for sampling events before sending them to Honeycomb, with different sampling rates based on event type
 
-# License
+## License
 
 This code is licensed under the Apache 2.0 License.
 
-# Additional Resources
-
-[![OSS Lifecycle](https://img.shields.io/osslifecycle/honeycombio/REPO)](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md)
+## Additional Resources
 
 * Tile Development docs: https://docs.pivotal.org/tile-dev
 
