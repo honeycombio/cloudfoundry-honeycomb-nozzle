@@ -124,5 +124,7 @@ This code is licensed under the Apache 2.0 License.
 
 # Additional Resources
 
+[![OSS Lifecycle](https://img.shields.io/osslifecycle/honeycombio/REPO)](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md)
+
 * Tile Development docs: https://docs.pivotal.org/tile-dev
 
