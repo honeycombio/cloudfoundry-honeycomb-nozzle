@@ -1,6 +1,8 @@
 # cloudfoundry-honeycomb-nozzle
 
-[![OSS Lifecycle](https://img.shields.io/osslifecycle/honeycombio/cloudfoundry-honeycomb-nozzle?color=success)](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md)
+[![OSS Lifecycle](https://img.shields.io/osslifecycle/honeycombio/cloudfoundry-honeycomb-nozzle?color=pink)](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md)
+
+**STATUS: this project is being sunset.** [See https://github.com/honeycombio/cloudfoundry-honeycomb-nozzle/issues/6](https://github.com/honeycombio/cloudfoundry-honeycomb-nozzle/issues/6)
 
 A Nozzle for draining logs and metrics from Cloud Foundry Loggregator to Honeycomb. For more information about using Honeycomb, see the [docs](https://honeycomb.io/docs).
 
