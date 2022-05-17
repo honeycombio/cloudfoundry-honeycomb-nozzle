@@ -1,8 +1,12 @@
 # cloudfoundry-honeycomb-nozzle
 
-[![OSS Lifecycle](https://img.shields.io/osslifecycle/honeycombio/cloudfoundry-honeycomb-nozzle?color=pink)](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md)
+[![OSS Lifecycle](https://img.shields.io/osslifecycle/honeycombio/cloudfoundry-honeycomb-nozzle)](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md)
 
-**STATUS: this project is being sunset.** [See https://github.com/honeycombio/cloudfoundry-honeycomb-nozzle/issues/6](https://github.com/honeycombio/cloudfoundry-honeycomb-nozzle/issues/6)
+**STATUS: this project is [archived](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md).**
+
+Questions? You can chat with us in the **Honeycomb Pollinators** Slack. You can find a direct link to request an invite in [Spread the Love: Appreciating Our Pollinators Community](https://www.honeycomb.io/blog/spread-the-love-appreciating-our-pollinators-community/).
+
+---
 
 A Nozzle for draining logs and metrics from Cloud Foundry Loggregator to Honeycomb. For more information about using Honeycomb, see the [docs](https://honeycomb.io/docs).
 
